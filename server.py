@@ -3,7 +3,7 @@ Python HTTP server for GraphQL.
 """
 from flask import Flask
 from flask_graphql import GraphQLView
-import schema
+from schema import schema
 
 app = Flask(__name__)
 app.add_url_rule(
