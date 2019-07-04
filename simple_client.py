@@ -1,6 +1,5 @@
 import requests
 
-
 q = """
 { 
   website(url: "https://lethain.com/migrations") {
