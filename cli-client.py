@@ -12,3 +12,5 @@ def scrape_site(url):
         """.format(url)
     resp = requests.post("http://localhost:5000/", params={'query': q})
     return resp
+
+def 
